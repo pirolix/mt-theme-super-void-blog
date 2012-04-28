@@ -1,0 +1,34 @@
+---
+# $Id$
+id: super_void
+label: Super Void
+name: Super Void
+version: 0.01
+author_name: Open MagicVox.net
+author_link: http://www.magicvox.net/
+class: blog
+description: 壮絶に空っぽのテーマ
+thumbnail_file: thumb.png
+thumbnail_file_medium: thumb-medium.png
+thumbnail_file_small: thumb-small.png
+elements: 
+  template_set: 
+    component: ~
+    data: 
+      base_path: templates
+      label: exported_template set
+      templates: 
+        system: 
+          comment_listing: 
+            label: コメント一覧
+          comment_preview: 
+            label: コメントプレビュー
+          comment_response: 
+            label: コメント完了
+          dynamic_error: 
+            label: ダイナミックパブリッシングエラー
+          popup_image: 
+            label: ポップアップ画像
+          search_results: 
+            label: 検索結果
+    importer: template_set
